@@ -1,2 +1,2 @@
-# Employee-Information
-A simple program that shows an employee information.
+# Employee Management System
+The Employee Management System is a C++ program that models an employee within an organization. It provides functionality to manage and display employee details, including their personal and professional information. This program allows for the creation of Employee objects with various attributes and includes methods to update and retrieve these attributes. Additionally, it supports sending simulated emails and SMS messages to employees.
