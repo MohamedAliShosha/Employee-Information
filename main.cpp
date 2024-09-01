@@ -14,7 +14,6 @@ class Employee {
         string _department;
 
 public:
-    // Constructor used to give initial values to the attributes
     Employee(int ID,  string firstName,  string lastName , string title , string Email,  string phone , int salary , string department)
     {
         _ID = ID;
@@ -27,9 +26,8 @@ public:
         _department = department;
     }
 
-    // Getter methods (optional)
     
-    int getID() // Read only property
+    int getID() 
     { 
         return _ID; 
         
@@ -88,7 +86,6 @@ public:
         return _department;
     }
     
-    // Setter methods (optional)
  
     void setFirstName (string firstName) 
     {
